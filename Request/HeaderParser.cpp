@@ -2,8 +2,9 @@
 // Created by Ding Ruiyang on 2018/3/16.
 //
 
+#include <IO/IoReader.h>
 #include "HeaderParser.h"
-#include "../IO/IoReader.h"
+
 
 void HeaderParser::parseRequestHeader(int fd)
 {

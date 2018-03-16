@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/dingruiyang/Projects/WebServer/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
@@ -66,6 +67,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/dingruiyang/Projects/WebServer/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
@@ -124,10 +126,10 @@
 		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestPost.h">
 			<Option target="WebServer"/>
 		</Unit>
-		<Unit filename="/Users/dingruiyang/Projects/WebServer/SocketConnection.cpp">
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Socket/SocketConnection.cpp">
 			<Option target="WebServer"/>
 		</Unit>
-		<Unit filename="/Users/dingruiyang/Projects/WebServer/SocketConnection.h">
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Socket/SocketConnection.h">
 			<Option target="WebServer"/>
 		</Unit>
 		<Unit filename="/Users/dingruiyang/Projects/WebServer/main.cpp">
