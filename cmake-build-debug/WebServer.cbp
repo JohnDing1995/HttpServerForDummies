@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dingruiyang/Projects/WebServer/HttpHeaderReader.cpp">
-			<Option target="WebServer"/>
-		</Unit>
-		<Unit filename="/Users/dingruiyang/Projects/WebServer/HttpHeaderReader.h">
-			<Option target="WebServer"/>
-		</Unit>
 		<Unit filename="/Users/dingruiyang/Projects/WebServer/IO/IoReader.cpp">
 			<Option target="WebServer"/>
 		</Unit>
