@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dingruiyang/Projects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dingruiyang/Projects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dingruiyang/Projects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer">
+				<Option output="/Users/dingruiyang/Projects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingruiyang/Projects/WebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer/fast">
+				<Option output="/Users/dingruiyang/Projects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingruiyang/Projects/WebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dingruiyang/Projects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/HttpHeaderReader.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/HttpHeaderReader.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/IO/IoReader.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/IO/IoReader.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/IO/IoWriter.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/IO/IoWriter.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/HeaderParser.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/HeaderParser.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestBase.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestBase.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestGet.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestGet.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestManager.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestManager.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestPost.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/Request/RequestPost.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/SocketConnection.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/SocketConnection.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/main.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/dingruiyang/Projects/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
