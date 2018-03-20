@@ -6,7 +6,9 @@
 #define WEBSERVER_REQUESTPOST_H
 
 
-class RequestPost : public RequestPost{
+#include "RequestBase.h"
+
+class RequestPost : public RequestBase{
 
 };
 

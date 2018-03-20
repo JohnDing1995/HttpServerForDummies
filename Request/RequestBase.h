@@ -13,7 +13,7 @@ class RequestBase
 public:
     void init(int fd, std::string uri);
     void execute();
-    virtual ~Request()
+    virtual ~RequestBase()
     {
 
     }
@@ -25,7 +25,6 @@ protected:
 private:
     virtual void doExecute() = 0;
 
-private:
     int fileDescriptor;
     std::string uri;
 };

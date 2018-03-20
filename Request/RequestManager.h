@@ -6,7 +6,24 @@
 #define WEBSERVER_REQUESTMANAGER_H
 
 
+#include "HeaderParser.h"
+#include "RequestBase.h"
+#include "RequestGet.h"
+#include "RequestPost.h"
+
 class RequestManager {
+public:
+    explicit RequestManager(int fd) : fileDescriptor(fd)
+    {
+
+    }
+private:
+    int fileDescriptor;
+    RequestBase request;
+    static RequestGet getHdl = RequestGet();
+    static RequestPost postHdl = RequestPost();
+
+    RequestBase* getRequestHdl();
 
 };
 

@@ -9,6 +9,15 @@
 #include <string>
 
 class HeaderParser {
+public:
+    explicit HeaderParser(int fd)
+    {
+        parseRequestHeader(fd);
+    }
+
+    std::string getMethod();
+    std::string getUri();
+    std::string gerVersion();
 private:
     void parseRequestHeader(int fd);
 

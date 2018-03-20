@@ -15,3 +15,15 @@ void HeaderParser::parseRequestHeader(int fd)
     uri = header[1];
     version = header[2];
 }
+
+std::string HeaderParser::gerVersion() {
+    return this->version;
+}
+
+std::string HeaderParser::getUri() {
+    return this->uri;
+}
+
+std::string HeaderParser::getMethod() {
+    return this->method;
+}
